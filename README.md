@@ -1,4 +1,4 @@
-Criando Banco de Dados Relacional
+# Criando Banco de Dados Relacional
 
 Este repositório documenta meu aprendizado na criação de bancos de dados relacionais utilizando PostgreSQL. O projeto acompanha desde criação inicial de banco de dados e tabelas até conceitos avançados.
 
