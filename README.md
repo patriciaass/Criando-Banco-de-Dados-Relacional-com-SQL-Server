@@ -1,15 +1,21 @@
-# Criando-Banco-de-Dados-Relacional-com-SQL-Server
-Mostrando passo a passo do meu aprendizado com criação de banco de dados relacional com SQLServer, desde conceitos básicos até criação de tabelas e consultas.
+Criando Banco de Dados Relacional
 
-O que é banco de dados relacional?
-- O banco de dados relacional é um tipo de banco de dados que organiza informações estruturadas em tabelas interligadas, permitindo consultar dados com eficiência através de relações predefinidas.
+Este repositório documenta meu aprendizado na criação de bancos de dados relacionais utilizando PostgreSQL. O projeto acompanha desde criação inicial de banco de dados e tabelas até conceitos avançados.
 
-Escolhi o SQLServer para criar meu banco de dados e aprender a criar designer de tabelas.
+# Requisitos 
+Postgres
+DBeaver
 
-O que são tabelas? 
-- Tabela é uma estrutura dentro de um banco de dados usada para armazenar dados organizados em linhas e colunas.
-- Coluna = tipos de informação (nome, data, valor)
-- Linhas = registros (cada item cadastrado)
+# Conceitos estudados
+Conceitos fundamentais de banco de dados relacional
 
-Como fiz? 
-- Instalei o SQLServer pela microsoft em https://www.microsoft.com/pt-br/sql-server/sql-server-downloads em seguida baixei o SQL Server
+#Comandos SQL utilizados
+CREATE DATABASE
+CREATE SCHEMA
+
+# Como instalei e configurei
+Instalei primeiro o Postgres pelo site - https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+Logo em seguida instalei o DBeaver site - https://dbeaver.io/download/
+Durante a instalação criei uma senha para abrir meu banco de dados e selecionei uma porta para o banco de dados.
+No DBeaver, para criar banco de dados local, cliquei em "Nova Conexão", selecionei o PostgreSQL e preenchi o host com "localhost", a porta onde está meu PostgreSQL e a senha que forneci durante a instalação.
+Por fim, criei um banco de dados chamado "banco" e depois criei um schema chamado de "risco".
